@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <head>
+    Youtube Spam Detection
+  </head>
+  	<p style="color:blue;font-size:20;text-align: center;"><b>Results for Comment</b></p>
+    <div class="result">
+      {%if preidction == 1%}
+      <h2 color="red">spam</h2>
+      <%elif prediction == 0%>
+      <h2 color="blue">not spam</h2>
+      <%end if%>
+    </div>
+</body>
+</html>

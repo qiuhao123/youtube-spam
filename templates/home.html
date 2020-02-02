@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <head>
+    Youtube Spam Detection
+  </head>
+  <p>please enter your youtube comment</p>
+  <form action = "{{url_for('predict')}}", method = "POST">
+    <textarea name = "message" rows= "10" cols = "30">
+    </textarea>
+    <br>
+    <input type = "submit" value="predict">
+  </form>
+</body>
+</html>
