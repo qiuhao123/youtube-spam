@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
 <body>
-  <head>
+  <head style = "font-size:50;">
     Youtube Spam Detection
   </head>
-  <p>please enter your youtube comment</p>
   <form action = "{{url_for('predict')}}", method = "POST">
+    <p style = "font-size:20;">Enter Your Comment Here</p>
     <textarea name = "message" rows= "10" cols = "30">
     </textarea>
     <br>
     <input type = "submit" value="predict">
   </form>
+  
 </body>
-</html>
+</html> 
+
